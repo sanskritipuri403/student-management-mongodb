@@ -1,4 +1,4 @@
-[
+db.student.insertMany[
   {
     "roll": 1,
     "name": "Anamika",
