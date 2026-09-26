@@ -4,7 +4,7 @@
  * Project: Student Management System Using MongoDB
  * Candidate: Sanskriti Puri
  * Faculty Guide: Mr. Harendra Singh
- * 
+ *
  * MongoDB Shell (mongosh) Complete Script - 65 Student Records
  */
 
