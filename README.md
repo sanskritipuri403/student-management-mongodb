@@ -43,7 +43,7 @@ student_management/
 ├── assets/
 │   └── bbdu_logo.png                    # Babu Banarasi Das University emblem logo
 ├── data/
-│   └── students_dataset_65.json         # Master dataset of 65 student records
+│   └── students_dataset.json            # Master dataset of 65 student records
 ├── docs/
 │   ├── Student_Management_MongoDB_Project_Report.docx  # Formatted Word Document
 │   └── Student_Management_MongoDB_Project_Report.pdf   # 7-Page Publication PDF Report
