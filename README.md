@@ -44,11 +44,10 @@ student_management/
 │   └── bbdu_logo.png                    # Babu Banarasi Das University emblem logo
 ├── data/
 │   └── students_dataset_65.json         # Master dataset of 65 student records
-├── scripts/
-│   └── student_queries.js               # Complete runnable MongoDB Shell (mongosh) script (21 operations)
 ├── docs/
 │   ├── Student_Management_MongoDB_Project_Report.docx  # Formatted Word Document
 │   └── Student_Management_MongoDB_Project_Report.pdf   # 7-Page Publication PDF Report
+├── mongo_queries.js                     # Complete MongoDB Shell (mongosh) script (21 operations)
 ├── .gitignore                           # Git ignore rules
 └── README.md                            # Complete documentation & quickstart guide
 ```
@@ -111,16 +110,16 @@ The collection `students` inside database `Students` stores records with attribu
 ### Option 1: Using MongoDB Shell (mongosh)
 You can execute the entire query script directly from your terminal:
 ```bash
-mongosh "mongodb://localhost:27017" scripts/student_queries.js
+mongosh "mongodb://localhost:27017" mongo_queries.js
 ```
 
 ### Option 2: Using MongoDB Compass GUI
 1. Open **MongoDB Compass**.
 2. Connect to `mongodb://localhost:27017`.
 3. Open the **_MONGOSH** terminal bar at the bottom.
-4. Copy and paste queries from `scripts/student_queries.js` or load the script using:
+4. Copy and paste queries from `mongo_queries.js` or load the script using:
    ```javascript
-   load("scripts/student_queries.js")
+   load("mongo_queries.js")
    ```
 
 ---
